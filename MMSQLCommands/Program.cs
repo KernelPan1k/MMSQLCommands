@@ -218,6 +218,7 @@ namespace MSSQL
         {
             Console.WriteLine($"[*] Try execute {cmd} query!");
             String res = ExecuteQuery(cmd);
+            Console.WriteLine($"[*] Output : {res}");
             Console.WriteLine($"[*] Executed command!");
         }
 
